@@ -1,0 +1,23 @@
+.dropdown-parent {
+  position: relative;
+}
+
+.dropdown-toggle {
+  border: 1px solid #000;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  border: 1px solid red;
+  padding: 15px;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  left: 0;
+  display: none;
+}
+
+.show .dropdown-menu {
+  display: block;
+}
